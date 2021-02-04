@@ -2,7 +2,7 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-    background: #f1f1f1;
+    background: #fafafa;
 }
   
 h1 {
@@ -17,60 +17,15 @@ h3 {
   font-size: 30px;
 }
 
-.navbar {
-  max-height: 50px;
-}
-.navigation .navbar-brand {
-  color: rgb(32, 110, 122);
-  margin-left: 0px;
-  padding: inherit;
-  font-weight: bold;
-  background-color: rgb(255, 255, 255);
-  font-family: cochin;
-}
-
-.navbar {
-  background-color: rgb(255, 255, 255);
-  font-size: 25px; 
-}
-
-.active, .dropdown-menu .dropdown-item:active a:hover {
-  background-color: rgb(255, 255, 255);
-}
-.dropdown-item {
-  color: rgb(255, 255, 255);
-}
-.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: rgba(32, 110, 122, 0.75);
-}
-  
-.nav-link:hover {
-  background-color:rgba(32, 110, 122, 0.75);
-}
-  
-.navbar-brand:hover {
-  color: rgb(32, 110, 122);
-}
-
-.active, .panel:hover {
-  border-color:rgb(32, 110, 122);
-  border-style: solid;
-
-a {
-  color: rgb(231, 231, 231);
-  font-size: 15px;
-}
-
-
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
-  height: 300px;
+  height: 160px;
   padding-top: 20px;
   background: rgb(32, 110, 122);
 }
 
-  .small_header {
-    height: 180px;
+.small_header {
+    height: 200px;
     padding-top: 20px;
     background: rgb(32, 110, 122);
   }
@@ -79,12 +34,12 @@ a {
   .header h1 {
     padding: 20px;
     margin: 0;
-    color: #000;
+    color: #fafafa;
     text-align: center;
   }
 
   .small_header h1 {
-    padding: 20px;
+    padding: 30px;
     margin: 0;
     color: #000;
     text-align: center;
@@ -95,3 +50,52 @@ a {
     margin-right: 100px;
     margin-left: 100px;
   }
+
+
+
+  /*Nav Bar Info*/
+  .navbar {
+    max-height: 50px;
+  }
+
+  .navigation .navbar-brand {
+    color: rgb(32, 110, 122);
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px; 
+  }
+  
+  .active, .dropdown-menue .dropdown-item:active a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .dropdown-item {
+    color: rgb(150, 42, 42);
+  }
+  .dropdown .dropdown-menue .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(32, 110, 122, 0.75);
+  }
+    
+  .nav-link:hover {
+    background-color:rgba(32, 110, 122, 0.75);
+  }
+    
+  .navbar-brand:hover {
+    color: rgb(32, 110, 122);
+  }
+  
+  .active, .panel:hover {
+    border-color:rgb(32, 110, 122);
+    border-style: solid;
+a {
+     color: rgb(32, 110, 122);
+     font-size: 15px;
+}
+    
