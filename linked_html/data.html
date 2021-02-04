@@ -6,10 +6,10 @@
   <title>Web Visualization: Weather</title>
 
   <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="../CSS/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="main_style.css">
-  <link rel="stylesheet" href="media_style.css">
+  <link rel="stylesheet" href="../CSS/main_style.css">
+  <link rel="stylesheet" href="../CSS/media_style.css">
   
 </head>
 
@@ -23,7 +23,7 @@
           <a href="../index.html">Home</a>
         </li>
         <li>
-          <a href="plots.html">Plots</a>       
+    <a href="plots.html">Plots</a>
         </li>
         <li>
           <a href="comparisons.html">Comparisons</a>
@@ -41,7 +41,7 @@
       <div class="clearfix"></div>
     </nav>
     <div class="small_header">
-      <h1>Lets Compare</h1>
+      <h1>Data Data Data</h1>
     </div>
     <main>
       <section class="posts">
@@ -55,16 +55,14 @@
         </article>
         <article class="post">
           <h3>Weather Weather Weather</h3>
-          <p>WA "Comparisons" page that:
-
-            Contains all of the visualizations on the same page so we can easily visually compare them.
+          <p>Displays a responsive table containing the data used in the visualizations.
             <br/>
             <br/>
-            Uses a Bootstrap grid for the visualizations.
+            The table must be a bootstrap table component. Hint
             <br/>
             <br/>
-            The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
-         </p>
+            The data must come from exporting the .csv file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called to_html that allows you to generate a HTML table from a pandas dataframe. See the documentation here
+          </p>
         </article>
       </section>
     </main>

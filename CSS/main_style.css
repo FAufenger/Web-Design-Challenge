@@ -3,70 +3,76 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
     background: #f1f1f1;
-  }
+}
   
-  h1 {
-    font-size: 80px;
-  }
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.navbar {
+  max-height: 50px;
+}
+.navigation .navbar-brand {
+  color: rgb(32, 110, 122);
+  margin-left: 0px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  font-family: cochin;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  font-size: 25px; 
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: rgb(255, 255, 255);
+}
+.dropdown-item {
+  color: rgb(255, 255, 255);
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(32, 110, 122, 0.75);
+}
   
-  h2 {
-    font-size: 30px;
-  }
+.nav-link:hover {
+  background-color:rgba(32, 110, 122, 0.75);
+}
   
-  h3 {
-    font-size: 30px;
-  }
+.navbar-brand:hover {
+  color: rgb(32, 110, 122);
+}
+
+.active, .panel:hover {
+  border-color:rgb(32, 110, 122);
+  border-style: solid;
+
+a {
+  color: rgb(231, 231, 231);
+  font-size: 15px;
+}
 
 
-
-
-  .navbar {
-    max-height: 50px;
-  }
-  .navigation .navbar-brand {
-    color: rgb(52, 149, 165);
-    margin-left: 0px;
-    padding: inherit;
-    font-weight: bold;
-    background-color: rgb(255, 255, 255);
-    font-family: cochin;
-  }
-  .navbar {
-    background-color: rgb(255, 255, 255);
-    font-size: 25px; 
-  }
-  .active, .dropdown-menu .dropdown-item:active a:hover {
-    background-color: rgb(255,255,255);
-  }
-  .dropdown-item {
-    color: rgba(52, 150, 165, 0.75);
-  }
-  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: rgba(52, 150, 165, 0.75);
-  }
-  
-  .nav-link:hover {
-    background-color:rgba(52, 150, 165, 0.75);
-   }
-  
-  .navbar-brand:hover {
-  color: rgb(45, 158, 175);
-  }
-
-
-
-
-  /* Styling the header, giving it a height, a background color, and some top padding */
-  .header {
-    height: 300px;
-    padding-top: 20px;
-    background: #cdcdcd;
-  }
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 300px;
+  padding-top: 20px;
+  background: rgb(32, 110, 122);
+}
 
   .small_header {
     height: 180px;
     padding-top: 20px;
-    background: #cdcdcd;
+    background: rgb(32, 110, 122);
   }
 
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
@@ -82,4 +88,10 @@ body {
     margin: 0;
     color: #000;
     text-align: center;
+  }
+  /* Giving the .post element margin on 3 sides */
+  .post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
   }

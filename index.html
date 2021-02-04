@@ -13,47 +13,47 @@
 </head>
 
 <body>
-    <a href="index.html">Home</a>
-      <a href="./other_html/plots.html">Plots</a>
-      <a href="./other_html/comparisons.html">Comparisons</a>
-      <a href="./other_html/data.html">Data</a>
+  
   <!-- Our rows function in containers (grid created). -->
-  <div class="container">
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="index.html">latitudinal changes</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="index.html">Latitudinal Changes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            PLOTS
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="WebVisualizations/temperature.html">Max Temperature</a>
-                            <a class="dropdown-item" href="WebVisualizations/humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="WebVisualizations/cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="WebVisualizations/wind.html">Wind Speed</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./linked_html/plot_max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="./linked_html/plot_cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="./linked_html/plot_wind_speed.html">Wind Speed</a>
+                            <a class="dropdown-item" href="./linked_html/plot_humidity.html">Humidity</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="WebVisualizations/comparison.html">COMPARISON</a>
+                        <a class="nav-link" href="./linked_html/comparisons.html">-Comparisons-</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="WebVisualizations/data.html">DATA</a>
+                        <a class="nav-link" href="./linked_html/data.html">-Data-</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/FAufenger/web-design-challenge">Origin Link</a>
-                    </li>
+                   <!-- <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/FAufenger/web-design-challenge">-My Github-</a>
+                    </li> -->
                 </ul>
             </div>
         </nav>
     </div>
-    <header class="header">
+  
+  <div class="container">
+    <div class="header">
       <h1>Lets talk about Weather!!</h1>
-    </header>
+    </div>
+     
     <main>
       <section class="posts">
         <article class="post">
@@ -71,13 +71,12 @@
             <br/>
             <br/>
             There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-        </p>
+          </p>
         </article>
       </section>
     </main>
   </div>
         
-
 </body>
 
 </html>

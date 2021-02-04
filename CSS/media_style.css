@@ -1,4 +1,4 @@
-@media(max-width: 992px) {
+@media(max-width: 800px) {
   .navbar-expand-lg {
   background-color: #000000;
   }
@@ -8,7 +8,7 @@
   }
   .navbar div {
     margin: inherit;
-    background-color: rgb(255,255,255);
+    background-color: rgb(71, 123, 182);
   }
   .navbar-brand {
     padding: 10px;
@@ -19,5 +19,8 @@
   button:focus {
     outline: 1px dotted;
     outline: auto 5px;
+  }
+  .navbar li {
+    padding: 10px;
   }
 }
