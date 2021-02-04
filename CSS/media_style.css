@@ -1,4 +1,4 @@
-@media(max-width: 800px) {
+@media(max-width: 600px) {
   .navbar-expand-lg {
   background-color: #000000;
   }
@@ -8,7 +8,7 @@
   }
   .navbar div {
     margin: inherit;
-    background-color: rgb(71, 123, 182);
+    background-color: #fafafa
   }
   .navbar-brand {
     padding: 10px;

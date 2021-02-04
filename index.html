@@ -10,11 +10,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/main_style.css">
   <link rel="stylesheet" href="./CSS/media_style.css">
+
 </head>
 
 <body>
-  
-  <!-- Our rows function in containers (grid created). -->
 
   <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -53,39 +52,91 @@
         </nav>
     </div>
  
+  
+  <!-- Our rows function in containers (grid created). -->
 
+
+    
   <div class="container">
     <header class="header">
-      <h1>Lets talk about Weather!!</h1>
+      <h1 class = "text-center">Lets Explore the Weather!!</h1>
     </header>
    </div>  
-   
-   <div class="container">
-   <main>
-      <section class="posts">
-        <article class="post">
-          <h2>Weather Weather Weather</h2>
-          <p> Weather Weather Weather Weather Weather Weather Weather Weather Weather Weather 
-            Weather Weather Weather Weather WeatherWeather Weather Weather Weather WeatherWeather Weather Weather Weather Weather
-            Weather Weather Weather Weather WeatherWeather Weather Weather Weather WeatherWeather Weather Weather Weather Weather
-            Weather Weather Weather Weather WeatherWeather Weather Weather Weather WeatherWeather Weather Weather Weather Weather
-          </p>
-        </article>
 
-        <article class="post">
-          <h3>Weather Weather Weather</h3>
-          <p>An explanation of the project.
-            Links to each visualizations page.
-            <br/>
-            <br/>
-            There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-          </p>
-        </article>
-      </section>
-    
-    </main>
-  </div>
-        
+   <div class="container">
+     <div class="thumbnail_header">
+        <h3 class="text-center">
+          Click am image for a better view. 
+            <b class="text-center" href="./linked_html/linked_html.html">link</b> 
+           is your destination?
+         </h3>
+       </div>
+   
+     <body> 
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <p><a href="./linked_html/plot_cloudiness.html" class="btn btn-default" role="button">
+              <img src="./Resources/assets_images/latitude_vs_cloudiness.png" alt="..." class="img-thumbnail"></a></p>
+          </div>
+          <div class="text-center">
+            <h3>Cloudiness</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <p><a href="./linked_html/plot_humidity.html" class="btn btn-default" role="button">
+              <img src="./Resources/assets_images/latitude_vs_humidity.png" alt="..." class="img-thumbnail"></a></p>
+          </div>
+          <div class="text-center">
+              <h3>Humidity</h3>
+              </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <p><a href="./linked_html/plot_max_temp.html" class="btn btn-default" role="button">
+              <img src="./Resources/assets_images/latitude_vs_maxtemp.png" alt="..." class="img-thumbnail"></a></p>
+          </div>
+          <div class="text-center">
+                <h3>Max Temp</h3>
+                 </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <p><a href="./linked_html/plot_wind_speed.html" class="btn btn-default" role="button">
+              <img src="./Resources/assets_images/latitude_vs_windspeed.png" alt="..." class="img-thumbnail"></a></p>
+          </div>
+          <div class="text-center">
+            <h3>Wind Speed</h3>
+             </div>
+      </div>
+    </div>
+  </body>
+     <div class="container">
+     <main>
+        <section class="posts">
+  
+  
+          <article class="post">
+            <div class="text-center">
+            <h3>Weather Weather Weather</h3>
+            <p>An explanation of the project.
+              Links to each visualizations page.
+              <br/>
+              <br/>
+              There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+            </p>
+          </div>
+          </article>
+        </section>
+      
+      </main>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
