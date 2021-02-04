@@ -1,0 +1,40 @@
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 600px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+}
