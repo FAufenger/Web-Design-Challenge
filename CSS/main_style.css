@@ -16,29 +16,46 @@ body {
   h3 {
     font-size: 30px;
   }
-  /* Giving our navbar some padding and a background color */
+
+
+
+
   .navbar {
-    padding: 10px;
-    background: #b31616;
+    max-height: 50px;
+  }
+  .navigation .navbar-brand {
+    color: rgb(52, 149, 165);
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    font-family: cochin;
+  }
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: rgb(255,255,255);
+  }
+  .dropdown-item {
+    color: rgba(52, 150, 165, 0.75);
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(52, 150, 165, 0.75);
   }
   
-  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-  .navbar li {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background: #fff;
-    border-radius: 3px;
-  }
+  .nav-link:hover {
+    background-color:rgba(52, 150, 165, 0.75);
+   }
   
-  /* Getting rid of the default link styles here */
-  .navbar li a {
-    color: #000;
-    text-decoration: none;
+  .navbar-brand:hover {
+  color: rgb(45, 158, 175);
   }
-  
+
+
+
+
   /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
     height: 300px;
@@ -66,15 +83,3 @@ body {
     color: #000;
     text-align: center;
   }
-  
-  /* Giving the .post element margin on 3 sides */
-  .post {
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-  
-  #nav-select {
-    visibility: hidden;
-  }
-  
