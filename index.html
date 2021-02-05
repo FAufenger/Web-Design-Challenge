@@ -15,109 +15,126 @@
 
 <body>
 
-  <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="index.html">Latitudinal Changes</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand"  href="index.html">Latitudinal Changes</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Plots
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./linked_html/plot_max_temp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="./linked_html/plot_cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="./linked_html/plot_wind_speed.html">Wind Speed</a>
-                            <a class="dropdown-item" href="./linked_html/plot_humidity.html">Humidity</a>
-                        </div>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="../index.html"></a>
-                      </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="./linked_html/comparisons.html">-Comparisons-</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./linked_html/data.html">-Data-</a>
-                    </li>
-                   <!-- <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/FAufenger/web-design-challenge">-My Github-</a>
-                    </li> -->
-                </ul>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./linked_html/plot_max_temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="./linked_html/plot_cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="./linked_html/plot_wind_speed.html">Wind Speed</a>
+              <a class="dropdown-item" href="./linked_html/plot_humidity.html">Humidity</a>
             </div>
-        </nav>
-    </div>
- 
-  
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./linked_html/comparisons.html">-Comparisons-</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./linked_html/data.html">-Data-</a>
+          </li>
+        
+        </ul>
+      </div>
+     </div>
+    </nav>
+
   <!-- Our rows function in containers (grid created). -->
 
-
-    
   <div class="container">
     <header class="header">
       <h1 class = "text-center">Lets Explore the Weather!!</h1>
     </header>
-   </div>  
+  </div>  
 
-   <div class="container">
-     <div class="thumbnail_header">
-        <h3 class="text-center">
-          Click am image for a better view. 
-            <b class="text-center" href="./linked_html/linked_html.html">link</b> 
-           is your destination?
-         </h3>
-       </div>
-   
-     <body> 
-        <div class="col-md-3">
-          <div class="thumbnail">
-            <p><a href="./linked_html/plot_cloudiness.html" class="btn btn-default" role="button">
-              <img src="./Resources/assets_images/latitude_vs_cloudiness.png" alt="..." class="img-thumbnail"></a></p>
-          </div>
-          <div class="text-center">
-            <h3>Cloudiness</h3>
-          </div>
+  <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+        <div class="thumbnail_header">
+          <h3>
+            Here you will find analysis from the investigation of how weather varies at different 
+            <a id = "title" class="text-center" href="./linked_html/linked_html.html" role="button">latitudes</a> 
+            .
+          </h3>
         </div>
-        <div class="col-md-3">
-          <div class="thumbnail">
-            <p><a href="./linked_html/plot_humidity.html" class="btn btn-default" role="button">
-              <img src="./Resources/assets_images/latitude_vs_humidity.png" alt="..." class="img-thumbnail"></a></p>
-          </div>
-          <div class="text-center">
-              <h3>Humidity</h3>
-              </div>
+      </div>  
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="text-center">
+          <h3>Cloudiness</h3>
         </div>
-        <div class="col-md-3">
-          <div class="thumbnail">
-            <p><a href="./linked_html/plot_max_temp.html" class="btn btn-default" role="button">
-              <img src="./Resources/assets_images/latitude_vs_maxtemp.png" alt="..." class="img-thumbnail"></a></p>
-          </div>
-          <div class="text-center">
-                <h3>Max Temp</h3>
-                 </div>
+        <div class="thumbnail">
+          <p><a href="./linked_html/plot_cloudiness.html" class="btn btn-default" role="button">
+          <img src="./Resources/assets_images/latitude_vs_cloudiness.png" alt="..." class="img-thumbnail"></a></p>
         </div>
-        <div class="col-md-3">
-          <div class="thumbnail">
-            <p><a href="./linked_html/plot_wind_speed.html" class="btn btn-default" role="button">
-              <img src="./Resources/assets_images/latitude_vs_windspeed.png" alt="..." class="img-thumbnail"></a></p>
-          </div>
-          <div class="text-center">
-            <h3>Wind Speed</h3>
-             </div>
       </div>
     </div>
-  </body>
-     <div class="container">
-     <main>
-        <section class="posts">
-  
-  
-          <article class="post">
-            <div class="text-center">
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="text-center">
+          <h3>Humidity</h3>
+        </div>
+        <div class="thumbnail">
+          <p><a href="./linked_html/plot_humidity.html" class="btn btn-default" role="button">
+          <img src="./Resources/assets_images/latitude_vs_humidity.png" alt="..." class="img-thumbnail"></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="text-center">
+          <h3>Max Temp</h3>
+        </div>
+        <div class="thumbnail">
+        <p><a href="./linked_html/plot_max_temp.html" class="btn btn-default" role="button">
+          <img src="./Resources/assets_images/latitude_vs_maxtemp.png" alt="..." class="img-thumbnail"></a></p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="text-center">
+          <h3>Humidity</h3>
+        </div>
+        <div class="thumbnail">
+        <p><a href="./linked_html/plot_wind_speed.html" class="btn btn-default" role="button">
+          <img src="./Resources/assets_images/latitude_vs_windspeed.png" alt="..." class="img-thumbnail"></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <section class="posts">
+        <article class="post">
+          <div class="text-center">
             <h3>Weather Weather Weather</h3>
             <p>An explanation of the project.
               Links to each visualizations page.
@@ -126,17 +143,16 @@
               There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
             </p>
           </div>
-          </article>
-        </section>
-      
-      </main>
+        </article>
+      </section>
     </div>
 
+ 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+  </body>
 
 </html>

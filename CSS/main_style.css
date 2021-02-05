@@ -2,7 +2,11 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-    background: #fafafa;
+    background: #cdd8da;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
 }
   
 h1 {
@@ -47,7 +51,7 @@ h4 {
     background: rgb(32, 110, 122);
   }
 .thumbnail_header {
-  height: 120px;
+  
   padding-top: 20px;
   background: #fafafa;
 
@@ -83,56 +87,69 @@ h4 {
 
   /*Nav Bar Info*/
   .navbar {
-    max-height: 50px;
+    font-size: 25px; 
   }
 
   .navigation .navbar-brand {
-    color: rgb(32, 110, 122);
     margin-left: 0px;
     padding: 10;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
+    background-color:#fafafa;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
-  .navbar {
-    background-color: rgb(255, 255, 255);
-    font-size: 25px; 
-  }
-  
+   
   .active, .dropdown-menu .dropdown-item:active a:hover {
-    background-color: #fafafa;
+    color:  rgb(32, 110, 122);
   }
 
   .dropdown-item {
     color:  rgb(32, 110, 122);
+    background:#cdd8da;  
   }
+
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: rgba(32, 110, 122, 0.75);
+    background-color: #242721bf;
   }
     
   .nav-link:hover {
-    background-color:rgba(32, 110, 122, 0.75);
+    color: #662525;
+    background-color: #474b4136;
   }
-    
+  
+  .navbar-brand{
+    background: #9b9fa0;
+  }
+
   .navbar-brand:hover {
-    color: rgb(32, 110, 122);
+    color: rgb(165, 165, 165);
+    
   }
   
   .active, .panel:hover {
     border-color:rgb(32, 110, 122);
     border-style: solid;
   }
+
+  .bg-dark {
+    background-color: #d6dadd;
+    @include media-breakpoint-up(md) {
+        background-color: transparent;
+    }
+  }
+
+
 a {
     color: rgb(32, 110, 122);
-    font-size: 15px;
+    font-size: 30px;
 }
 b {
+  color: rgb(32, 110, 122);
   font-size: 30px;
   font-weight: bold; 
   
 }
 
+/* boxes */
 .box-set {
   position: relative;
   height: 400px;
@@ -145,3 +162,13 @@ b {
   background: #2db34a;
   border: 2px solid black;
 }
+
+
+
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./plot_max_temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="./plot_cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="./plot_wind_speed.html">Wind Speed</a>
+              <a class="dropdown-item" href="./plot_humidity.html">Humidity</a>
+            </div>
