@@ -1,6 +1,7 @@
 /* Lets add some style!!*/
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+
 body {
     background: #cdd8da;
     font-size: 1rem;
@@ -41,6 +42,7 @@ h4 {
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 160px;
+  margin-top: 78px;
   padding-top: 20px;
   background: rgb(32, 110, 122);
   text-align: "center";
@@ -88,7 +90,12 @@ h4 {
 
   /*Nav Bar Info*/
   .navbar {
+    overflow: visible;
     font-size: 25px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1
   }
 
   .navigation .navbar-brand {
@@ -163,13 +170,7 @@ b {
   background: #2db34a;
   border: 2px solid black;
 }
-
-
-
-
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="./plot_max_temp.html">Max Temperature</a>
-              <a class="dropdown-item" href="./plot_cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="./plot_wind_speed.html">Wind Speed</a>
-              <a class="dropdown-item" href="./plot_humidity.html">Humidity</a>
-            </div>
+/* Main content */
+.main {
+  margin-top: 230px; /* Add a top margin to avoid content overlay */
+}
