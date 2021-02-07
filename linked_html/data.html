@@ -58,40 +58,52 @@
   <div class="container">
     <header class="header">
       <div class = text-center>
-        <h1>Data Data Data</h1>
+        <h1>Welcome to the page of Data</h1>
       </div>
     </header>
   </div> 
- 
-  <div class ="container">
-    <div class="row">
-      <div class="col-mid-12">
-        <div class="text-center">
-          <p>Welcome to the Data page. Here you will learn more about the data that was utilized in the plot creation.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
 
   <div class="container">
-    <div class = "row"></div>
-    
-      <h3 class="title">DATA</h3>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="thumbnail_header">
+          <div class = "text-center">
+          <h3> Here you will find information on the data that was utilized in plot creation.
+          </h3>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+ 
+
+  <!-- Take data sent over from data.py and put into clean table-->
+  <div class="container">
+    <div class="text-center">
+    <div class = "row">
+      <hr>
+        <div class="text-left">
+          <p> As found in Python-API-Weather foler in the hidden github link attached to the word latitude on the upper lines of the homepage,
+           this table looks at a final result from a Python script to visualize the weather of 500+ cities across the world of varying
+           distance from the equator. This was accomplished by utilizing a simple Python library, the OpenWeatherMap API, and a little 
+           common sense.
+           <br>
+           <br>
+           This table was created through the use of a python file that converted the csv document into an html format than returned the format into the data.html source.
+           <br>
+           <br>
+           Below is a scrollable table containing all of the data that ws used in the creation of the plots displayed.
+          </p>
+          <br>
+        </div>
         <hr>
-        <p>Below is a scrollable table containing all of the data that ws used in the creation of the plots dosplayed.
-          <br>
-        There were over 500 randomly selected.....
-          <br>
-        This tablewas created through the use of a python file that converted the csv document into an html format than returned the format into the data.html source
-        </p>
-        <br>
+        <h3 class="title">Diving in to the Data</h3>
+        <hr>
         <div class="table-responsive" style="overflow-x:auto; overflow-y:auto; max-height:470px; max-width: auto;">
-          <table class="table table-striped table-dark table table-hover table-condensed">
+          <table class="table table-striped table-light table table-hover table-condensed">
 
           <thead>
-            <tr style="text-align: right;">
+            <tr style="text-align: left;">
             <th>City_ID</th>
             <th>City</th>
             <th>Cloudiness</th>
@@ -6674,5 +6686,30 @@
       </div>
     </div>
   </div>
+  </div>
+
+  <div class="container">
+    <section class="posts">
+      <article class="post">
+        <div class="text-center">
+          <h3>About the Data page</h3>
+          <p>This page displays a responsive table containing the data used in the visualizations using 
+            a bootstrap table component. The data comes from exporting the .csv file as HTML/ converting 
+            it to HTML. Pandas has a nifty method approprately called to_html that allows you to generate 
+            a HTML table from a pandas dataframe.  
+          </p>
+        </div>
+    </article>
+
+
+  </section>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
