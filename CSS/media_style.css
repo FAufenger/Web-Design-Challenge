@@ -1,28 +1,45 @@
-@media (min-width: 0px) and (max-width: 600px) {
- 
+@media (min-width: 0px) and (max-width: 767px) {
+  /*Nav Bar Info*/
+  .navbar {
+    overflow: hidden;
+    font-size: 25px; 
+    position: sticky; 
+    top: 0; 
+    width: 100%;
+    z-index: 1
+  }
+
+  .navigation .navbar-brand {
+    margin-left: 0px;
+    padding: 10;
+    font-weight: bold;
+    background-color:#fafafa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   
   .navbar-expand-lg {
   background-color: #000000;
   }
   .navbar {
     max-height: none;
     padding: inherit;
-    
+
   }
   .navbar div {
     margin: inherit;
-    background-color: #fafafa
-  }
+    background-color: #cdd8da;
   .navbar-brand {
     padding: 10px;
+    background-color: #d44242;
+    color: #d4e0e0;
   }
-  button{
-    margin-right: 30px;
+
+  .navbar-brand{
+    background:#d4e0e0;
   }
+
+
   button:focus {
     outline: 1px dotted;
     outline: auto 5px;
   }
-  .navbar li {
-    padding: 10px;
-  }
-}
