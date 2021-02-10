@@ -28,7 +28,8 @@
   .navbar div {
     margin: inherit;
     background-color: #cdd8da;
-  .navbar-brand {
+  }
+    .navbar-brand {
     padding: 10px;
     background-color: #d44242;
     color: #d4e0e0;
@@ -43,3 +44,37 @@
     outline: 1px dotted;
     outline: auto 5px;
   }
+
+  .box-1 {
+  background: purple;
+  }
+
+  .box-2 {
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 2px black;
+  }
+
+  .box-3 {
+    display: none;
+  }
+
+  .box-4 {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in;
+  } 
+
+  .box-5 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    background: none;
+    margin-left: 300px;
+  } 
+}
+
+}

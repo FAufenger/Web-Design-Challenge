@@ -7,7 +7,6 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    
 }
   
 h1 {
@@ -53,104 +52,96 @@ h4 {
     padding-top: 20px;
     background: rgb(32, 110, 122);
   }
-.thumbnail_header {
+
+  .thumbnail_header {
   
   padding-top: 20px;
   background: #fafafa;
 
 }
+
 .thumbnail_header h3 {
     padding: 20px;
     margin: 0;
     color: rgb(32, 110, 122);
     text-align: "center";
 }
-  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  .header h1 {
-    padding: 20px;
-    margin: 0;
-    color: #fafafa;
-    text-align: "center";
-  }
 
-  .small_header h1 {
-    padding: 30px;
-    margin: 0;
-    color: #000;
-    text-align: "center";
-  }
-  /* Giving the .post element margin on 3 sides */
-  .post {
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 20px;
+  margin: 0;
+  color: #fafafa;
+  text-align: "center";
+}
 
+.small_header h1 {
+  padding: 30px;
+  margin: 0;
+  color: #000;
+  text-align: "center";
+}
 
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
 
-  /*Nav Bar Info*/
-  .navbar {
-    overflow: visible;
-    font-size: 25px; 
-    position: fixed; 
-    top: 0; 
-    width: 100%;
-    z-index: 1
-  }
+/*Nav Bar Info*/
+.navbar {
+  overflow: visible;
+  font-size: 25px; 
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  z-index: 1
+}
 
-  .navigation .navbar-brand {
-    margin-left: 0px;
-    padding: 10;
-    font-weight: bold;
-    background-color:#fafafa;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+.navigation .navbar-brand {
+  margin-left: 0px;
+  padding: 10;
+  font-weight: bold;
+  background-color:#fafafa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
    
-  .active, .dropdown-menu .dropdown-item:active a:hover {
-    color:  rgb(32, 110, 122);
-  }
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  color:  rgb(32, 110, 122);
+}
 
-  .dropdown-item {
-    color:  rgb(32, 110, 122);
-    background:#cdd8da;  
-  }
+.dropdown-item {
+  color:  rgb(32, 110, 122);
+  background:#cdd8da;  
+}
 
-  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: #242721bf;
-  }
-    
-  .nav-link:hover {
-    color: #662525;
-    background-color: #474b4136;
-  }
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #242721bf;
+}
   
-  .navbar-brand{
-    background:#cdd8da;
-  }
-
-  .navbar-brand:hover {
-    color: rgb(165, 165, 165);
-    
-  }
+.nav-link:hover {
+  color: #662525;
+  background-color: #474b4136;
+}
   
-  .active, .panel:hover {
-    border-color:rgb(32, 110, 122);
-    border-style: solid;
-  }
+.navbar-brand{
+  background:#cdd8da;
+}
 
-  .bg-dark {
-    background-color: #d6dadd;
-    @include media-breakpoint-up(md) {
-        background-color: transparent;
-    }
-
-
+.navbar-brand:hover {
+  color: rgb(165, 165, 165);
+}
+  
+.active, .panel:hover {
+  border-color:rgb(32, 110, 122);
+  border-style: solid;
+}
 
 a {
     color: rgb(32, 110, 122);
     font-size: 30px;
 }
-
 
 b {
   color: rgb(32, 110, 122);
@@ -159,20 +150,38 @@ b {
   
 }
 
-/* boxes */
-.box-set {
-  position: relative;
-  height: 400px;
-  background: darkgray;
-}
-
-.box {
-  width: 150px;
-  height: 150px;
-  background: #2db34a;
-  border: 2px solid black;
-}
 /* Main content */
 .main {
   margin-top: 230px; /* Add a top margin to avoid content overlay */
+}
+
+
+/* boxes */
+/* every box is this size */
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* Every individual box is a different color */
+.box-1 {
+  background: green;
+}
+
+.box-2 {
+  background: red;
+  transform: rotate(360deg);
+  transition: transform 0.5s ease-in;
+}
+
+.box-3 {
+  background: blue;
+}
+
+.box-4 {
+  background: cornsilk;
+}
+
+.box-5 {
+  background: slateblue;
 }
