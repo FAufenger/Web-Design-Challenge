@@ -14,6 +14,7 @@ While each page conects to each other, this is the best way to start!!
   * An explanation of the project.
   * A navigation bar with a link to all other pages
   * Separate links to each visualizations page (can click on the picture).
+  * Ability to alter format at various screen sizes
 
 ![landing page large](./images/landing_page_large.png)
 
