@@ -7,30 +7,34 @@ Start at the index.html site
 <br/>
 While each page conects to each other, this is the best way to start!!
 
-### Website Details:
+## Website Details:
 
-* A [landing page] containing:
+### A [landing page] containing:
+
   * An explanation of the project.
   * A navigation bar with a link to all other pages
   * Separate links to each visualizations page (can click on the picture).
 
 ![landing page large](./images/landing_page_large.png)
 
-* Four [visualization pages] each with:
+### Four [visualization pages] each with:
+
   * A descriptive title and heading tag.
   * The plot/visualization itself for a bettwe view.
   * A paragraph describing the plot and its significance.
 
 ![landing page large](./images/cloudy_page.png)
 
-* A ["Comparisons" page] that:
+### A ["Comparisons" page] that:
+
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a bootstrap grid for the visualizations.
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
 ![landing page large](./images/comparisons_page.png)
 
-* A ["Data" page] that:
+### A ["Data" page] that:
+
   * Displays a responsive table containing the data used in the visualizations.
     * The table must be a bootstrap table component.
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML.
